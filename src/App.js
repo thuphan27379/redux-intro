@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PropDrillingExercise from "./pages/PropDrillingExercise";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -8,8 +7,6 @@ import PropDrillingFinal from "./pages/PropDrillingFinal";
 import ReduxFinal from "./pages/ReduxFinal";
 import PublicLayout from "./layout/PublicLayout";
 import MThemeProvider from "./theme/MThemProvider";
-
-
 
 function App() {
   return (
